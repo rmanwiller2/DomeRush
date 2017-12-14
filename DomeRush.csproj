@@ -79,7 +79,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GalaxyBox1\examplescene.cs" />
-    <Compile Include="Assets\Scripts\test.cs" />
+    <Compile Include="Assets\Physics test\scripts\ArtificialGravity.cs" />
+    <Compile Include="Assets\Physics test\scripts\CharController.cs" />
+    <Compile Include="Assets\Physics test\scripts\FollowCam.cs" />
+    <Compile Include="Assets\Physics test\scripts\test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GalaxyBox1\instructions.txt" />
