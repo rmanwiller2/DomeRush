@@ -78,17 +78,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GalaxyBox1\examplescene.cs" />
     <Compile Include="Assets\Physics test\scripts\ArtificialGravity.cs" />
     <Compile Include="Assets\Physics test\scripts\CharController.cs" />
     <Compile Include="Assets\Physics test\scripts\FollowCam.cs" />
     <Compile Include="Assets\Physics test\scripts\test.cs" />
+    <Compile Include="Assets\Skybox\GalaxyBox1\examplescene.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\GalaxyBox1\instructions.txt" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShader.shader" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />
+    <None Include="Assets\Materials\SimplePhysicalShader\SimplePhysicalShader.shader" />
+    <None Include="Assets\Materials\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
+    <None Include="Assets\Materials\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />
+    <None Include="Assets\Shipping Container Environment\Readme.txt" />
+    <None Include="Assets\Skybox\GalaxyBox1\instructions.txt" />
     <None Include="Assets\blah.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
