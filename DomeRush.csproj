@@ -84,17 +84,21 @@
     <Compile Include="Assets\GalaxyBox1\examplescene.cs" />
     <Compile Include="Assets\Physics test\scripts\ArtificialGravity.cs" />
     <Compile Include="Assets\Physics test\scripts\CarController.cs" />
-    <Compile Include="Assets\Physics test\scripts\CharController.cs" />
-    <Compile Include="Assets\Physics test\scripts\Drive.cs" />
-    <Compile Include="Assets\Physics test\scripts\FlipDetect.cs" />
+    <Compile Include="Assets\Physics test\scripts\Easy Suspension\EasySuspension.cs" />
+    <Compile Include="Assets\Physics test\scripts\Easy Suspension\RearWheelDrive.cs" />
+    <Compile Include="Assets\Physics test\scripts\Easy Suspension\WheelDrive.cs" />
     <Compile Include="Assets\Physics test\scripts\FollowCam.cs" />
-    <Compile Include="Assets\Physics test\scripts\test.cs" />
+    <Compile Include="Assets\Physics test\scripts\GoalController.cs" />
+    <Compile Include="Assets\Physics test\scripts\ResetScript.cs" />
+    <Compile Include="Assets\Physics test\scripts\TrackerController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Easy Suspension\EasySuspension\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\GalaxyBox1\instructions.txt" />
     <None Include="Assets\SimplePhysicalShader\SimplePhysicalShader.shader" />
     <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
     <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />
+    <None Include="Assets\UETools\Readme.txt" />
     <None Include="Assets\blah.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -24,10 +24,10 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
-        power = Input.GetAxis("Vertical") * enginePower * Time.deltaTime * 250.0f;
+        power = Input.GetAxis("Vertical") * enginePower* 250f;
         steer = Input.GetAxis("Horizontal") * maxSteer;
         if (Input.GetKey("space")) { brake =rb.mass * 10000000; } else { brake = 0.0f; }
-
+      
         GetCollider(0).steerAngle = steer;
         GetCollider(1).steerAngle = steer;
         
@@ -50,13 +50,16 @@ public class CarController : MonoBehaviour
             GetCollider(2).motorTorque = power;
             GetCollider(3).motorTorque = power;
         }
-        meshWheels[0].localEulerAngles = new Vector3(meshWheels[0].localEulerAngles.x, GetCollider(0).steerAngle - meshWheels[0].localEulerAngles.z, meshWheels[0].localEulerAngles.z);
-        meshWheels[1].localEulerAngles = new Vector3(meshWheels[1].localEulerAngles.x, GetCollider(1).steerAngle - meshWheels[1].localEulerAngles.z, meshWheels[1].localEulerAngles.z);
+        if (meshWheels.Length > 0)
+        {
+            meshWheels[0].localEulerAngles = new Vector3(meshWheels[0].localEulerAngles.x, GetCollider(0).steerAngle - meshWheels[0].localEulerAngles.z, meshWheels[0].localEulerAngles.z);
+            meshWheels[1].localEulerAngles = new Vector3(meshWheels[1].localEulerAngles.x, GetCollider(1).steerAngle - meshWheels[1].localEulerAngles.z, meshWheels[1].localEulerAngles.z);
 
-        meshWheels[0].Rotate(GetCollider(0).rpm / 60 * 360 * Time.deltaTime, 0, 0);
-        meshWheels[1].Rotate(GetCollider(1).rpm / 60 * 360 * Time.deltaTime, 0, 0);
-        meshWheels[2].Rotate(GetCollider(2).rpm / 60 * 360 * Time.deltaTime, 0, 0);
-        meshWheels[3].Rotate(GetCollider(3).rpm / 60 * 360 * Time.deltaTime, 0, 0);
+            meshWheels[0].Rotate(GetCollider(0).rpm / 60 * 360 * Time.deltaTime, 0, 0);
+            meshWheels[1].Rotate(GetCollider(1).rpm / 60 * 360 * Time.deltaTime, 0, 0);
+            meshWheels[2].Rotate(GetCollider(2).rpm / 60 * 360 * Time.deltaTime, 0, 0);
+            meshWheels[3].Rotate(GetCollider(3).rpm / 60 * 360 * Time.deltaTime, 0, 0);
+        }
     }
 
     WheelCollider GetCollider(int n)
