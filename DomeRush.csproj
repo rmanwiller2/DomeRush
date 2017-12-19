@@ -82,9 +82,11 @@
     <Compile Include="Assets\Physics test\scripts\CharController.cs" />
     <Compile Include="Assets\Physics test\scripts\FollowCam.cs" />
     <Compile Include="Assets\Physics test\scripts\test.cs" />
+    <Compile Include="Assets\Scripts\GoalScore.cs" />
     <Compile Include="Assets\Skybox\GalaxyBox1\examplescene.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Electro-music-drum-loop-120-bpm\Read.txt" />
     <None Include="Assets\Materials\SimplePhysicalShader\SimplePhysicalShader.shader" />
     <None Include="Assets\Materials\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
     <None Include="Assets\Materials\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />

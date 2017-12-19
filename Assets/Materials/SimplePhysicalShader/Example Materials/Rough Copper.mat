@@ -45,6 +45,7 @@ Material:
     m_Floats:
     - _BumpDepth: 0.23928572
     - _Metalicity: 1
+    - _Metallicity: 0
     - _Smoothness: 12
     - _Wrap: 0.7
     m_Colors:
