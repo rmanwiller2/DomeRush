@@ -17,6 +17,7 @@ public class FlipDetect : MonoBehaviour {
 		if (flipTimer >= maxTime)
         {
             ControllerScript.flipped = true;
+            print("Flipped!!!!");
             flipTimer = 0;
         }
 	}
@@ -28,7 +29,7 @@ public class FlipDetect : MonoBehaviour {
     private void OnTriggerStay(Collider other)
     {
         flipTimer += Time.deltaTime;
-        print("Flipped!!!!");
+        
     }
 
 

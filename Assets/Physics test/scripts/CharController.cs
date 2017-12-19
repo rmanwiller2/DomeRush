@@ -17,22 +17,25 @@ public class CharController : MonoBehaviour {
     public bool flipped = false;
 
     [Header("DEBUG")]
-    public MeshRenderer mr;
+    private MeshRenderer mr;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         rb = GetComponent<Rigidbody>();
         charTransform = GetComponent <Transform>();
+        mr = GetComponent<MeshRenderer>();
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         rb.AddTorque(charTransform.up * movement.x * turnSpeed);
         rb.AddForce(charTransform.forward * movement.y * speed, ForceMode.Impulse);
         if (flipped)
         {
-           // FlipOver();
+            FlipOver();
             flipped = false;
         }
 	}
@@ -43,6 +46,7 @@ public class CharController : MonoBehaviour {
         Vector3 NormArtificialUp = ArtificialUp / ArtificialUp.magnitude; // This is now the normalized direction.
         rb.AddForce(NormArtificialUp * 10, ForceMode.Impulse);
         charTransform.rotation = Quaternion.FromToRotation(charTransform.rotation.eulerAngles, hit.normal);
+        mr.material.SetColor("_EmissionColor", Color.blue);
     }
 
    
@@ -64,7 +68,7 @@ public class CharController : MonoBehaviour {
     private void OnCollisionEnter(Collision collision)
     {
        
-            mr.material.SetColor("_EmissionColor", Color.green);
+            mr.material.SetColor("_EmissionColor", Color.white);
             print("you hit something");
         
     }
