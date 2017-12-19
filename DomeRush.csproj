@@ -79,7 +79,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Physics test\scripts\ArtificialGravity.cs" />
+    <Compile Include="Assets\Physics test\scripts\CarController.cs" />
     <Compile Include="Assets\Physics test\scripts\CharController.cs" />
+    <Compile Include="Assets\Physics test\scripts\Drive.cs" />
+    <Compile Include="Assets\Physics test\scripts\FlipDetect.cs" />
     <Compile Include="Assets\Physics test\scripts\FollowCam.cs" />
     <Compile Include="Assets\Physics test\scripts\test.cs" />
     <Compile Include="Assets\Scripts\GoalScore.cs" />
