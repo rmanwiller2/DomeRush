@@ -133,10 +133,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Easy Suspension\EasySuspension\ProjectSettings\ProjectVersion.txt" />
-    <None Include="Assets\GalaxyBox1\instructions.txt" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShader.shader" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />
+    <None Include="Assets\Electro-music-drum-loop-120-bpm\Read.txt" />
+    <None Include="Assets\Final Game\Materials\SimplePhysicalShader\SimplePhysicalShader.shader" />
+    <None Include="Assets\Final Game\Materials\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
+    <None Include="Assets\Final Game\Materials\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />
+    <None Include="Assets\Shipping Container Environment\Readme.txt" />
+    <None Include="Assets\Skybox\GalaxyBox1\instructions.txt" />
     <None Include="Assets\UETools\Readme.txt" />
     <None Include="Assets\blah.txt" />
   </ItemGroup>

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeRush", "DomeRush.csproj", "{1212D272-4D99-16EC-602B-CD83BFF24291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeRush.Editor", "DomeRush.Editor.csproj", "{E743D40C-4B85-AF30-FF2C-C72B2A6E1B40}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{1212D272-4D99-16EC-602B-CD83BFF24291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1212D272-4D99-16EC-602B-CD83BFF24291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1212D272-4D99-16EC-602B-CD83BFF24291}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E743D40C-4B85-AF30-FF2C-C72B2A6E1B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E743D40C-4B85-AF30-FF2C-C72B2A6E1B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E743D40C-4B85-AF30-FF2C-C72B2A6E1B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E743D40C-4B85-AF30-FF2C-C72B2A6E1B40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -81,24 +81,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GalaxyBox1\examplescene.cs" />
-    <Compile Include="Assets\Physics test\scripts\ArtificialGravity.cs" />
-    <Compile Include="Assets\Physics test\scripts\CarController.cs" />
-    <Compile Include="Assets\Physics test\scripts\Easy Suspension\EasySuspension.cs" />
-    <Compile Include="Assets\Physics test\scripts\Easy Suspension\RearWheelDrive.cs" />
-    <Compile Include="Assets\Physics test\scripts\Easy Suspension\WheelDrive.cs" />
-    <Compile Include="Assets\Physics test\scripts\FollowCam.cs" />
-    <Compile Include="Assets\Physics test\scripts\GoalController.cs" />
-    <Compile Include="Assets\Physics test\scripts\ResetScript.cs" />
-    <Compile Include="Assets\Physics test\scripts\TrackerController.cs" />
+    <Compile Include="Assets\Final Game\Scripts\ArtificialGravity.cs" />
+    <Compile Include="Assets\Final Game\Scripts\CarController.cs" />
+    <Compile Include="Assets\Final Game\Scripts\Easy Suspension\EasySuspension.cs" />
+    <Compile Include="Assets\Final Game\Scripts\Easy Suspension\RearWheelDrive.cs" />
+    <Compile Include="Assets\Final Game\Scripts\Easy Suspension\WheelDrive.cs" />
+    <Compile Include="Assets\Final Game\Scripts\FollowCam.cs" />
+    <Compile Include="Assets\Final Game\Scripts\GoalController.cs" />
+    <Compile Include="Assets\Final Game\Scripts\GoalScore.cs" />
+    <Compile Include="Assets\Final Game\Scripts\ResetScript.cs" />
+    <Compile Include="Assets\Final Game\Scripts\ScoreScript.cs" />
+    <Compile Include="Assets\Final Game\Scripts\TrackerController.cs" />
+    <Compile Include="Assets\Skybox\GalaxyBox1\examplescene.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Easy Suspension\EasySuspension\ProjectSettings\ProjectVersion.txt" />
-    <None Include="Assets\GalaxyBox1\instructions.txt" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShader.shader" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
-    <None Include="Assets\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />
-    <None Include="Assets\UETools\Readme.txt" />
+    <None Include="Assets\Final Game\FX\UETools\Readme.txt" />
+    <None Include="Assets\Final Game\Imported Items\Shipping Container Environment\Readme.txt" />
+    <None Include="Assets\Final Game\Materials\SimplePhysicalShader\SimplePhysicalShader.shader" />
+    <None Include="Assets\Final Game\Materials\SimplePhysicalShader\SimplePhysicalShaderCoat.shader" />
+    <None Include="Assets\Final Game\Materials\SimplePhysicalShader\SimplePhysicalShaderRetro.shader" />
+    <None Include="Assets\Skybox\GalaxyBox1\instructions.txt" />
     <None Include="Assets\blah.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
